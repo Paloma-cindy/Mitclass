@@ -1,0 +1,37 @@
+.Fruits{
+    border: 2px solid blue;
+    color: #29848d;
+    background-color: #134b33;
+    text-align: center;
+    padding: 15px;
+    margin: 20px;
+}
+.Cars{
+    background-color:greenyellow;
+    color: blueviolet;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+}
+#Britain{
+    border: 4px solid black ;
+    color: blueviolet;
+    background-color: burlywood;
+    text-align: center;
+    margin: 15px;
+    padding: 20px;
+}
+#Tanzania{
+    border: 6px solid gold;
+    background-color: lavender;
+    text-align: left;
+    padding:20px ;
+    margin: 15px;
+}
+#Kenya{
+    border: 2px solid lightcoral;
+    padding: 20px;
+    margin: 15px;
+    text-align: right;
+}

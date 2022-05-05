@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <style>
+        form{
+            color: #000000;
+            font-family: "Century Schoolbook L";
+            padding: 15px;
+            text-align:left;
+            margin: 110px;
+            background-image:url("Images/mystic.jpeg") ;
+            margin-top: 10px;
+        }
+        h2{
+            text-align:center;
+            font-family: "padmaa-Bold.1.1";
+        }
+        input{
+            color: #c70e38;
+            font-family:"URW Gothic L";
+        }
+        form,h2{
+            border: 4px solid #45b89d;
+            border-collapse: collapse;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms</title>
+</head>
+<body>
+<h2>Registration Form</h2>
+<form action="">
+  <label for="fname">First Name</label>
+  <input type="text" id="fname" placeholder="Enter first name" size="30"><br><br>
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" placeholder="Enter last name" size="30"><br><br>
+
+    <label for="dor">Date of Registration</label>
+    <input type="date" id="dor"><br><br>
+
+    <label for="course">Course taken</label>
+    <select name="Courses" id="course">
+    <option value="Fullstack Software">Fullstack</option>
+    <option value="python"> Python</option>
+    <option value="javascript">Javascript</option>
+        <option value="android">Android</option>
+        <option value="c++">C++</option>
+    </select><br><br>
+
+    <label for="male">Male</label>
+    <input type="radio" id="male" name="gender"><br>
+
+    <label for="female">Female</label>
+    <input type="radio" id="female" name="gender"><br>
+
+    <label for="other">Others</label>
+    <input type="radio" id="other" name="gender"><br><br>
+
+    <label for="email">Email Address</label>
+    <input type="email" id="email" placeholder="Enter email" size="30"><br><br>
+
+    <label for="pass">Password</label>
+    <input type="password" id="pass" placeholder="Enter password" size="30"><br><br>
+
+    <label for="image">upload Image</label>
+    <input type="file" id="image"><br><br>
+
+    <input type="submit" value="register">
+    <button type="button" onclick="alert('This is how to work with forms')">Bonyeza hapa</button>
+
+</form>
+
+</body>
+</html>
